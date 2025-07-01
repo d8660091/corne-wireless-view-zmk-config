@@ -95,10 +95,10 @@
 
         game {
             bindings = <
-&balanced_homerow_mods TAB ESC  &kp Q  &kp W  &kp E     &kp R     &kp T        &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL                       &kp A  &kp S  &kp D     &kp F     &kp G        &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT                       &kp Z  &kp X  &kp C     &kp V     &kp B        &trans  &trans  &trans  &trans  &trans  &trans
-                                              &kp LGUI  &kp LALT  &kp SPACE    &to 0   &trans  &trans
+&kp TAB                           &kp Q  &kp W  &kp E     &kp R     &kp T        &trans  &trans  &trans  &trans  &trans  &trans
+&balanced_homerow_mods LCTRL ESC  &kp A  &kp S  &kp D     &kp F     &kp G        &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT                         &kp Z  &kp X  &kp C     &kp V     &kp B        &trans  &trans  &trans  &trans  &trans  &trans
+                                                &kp LGUI  &kp LALT  &kp SPACE    &to 0   &trans  &trans
             >;
 
             label = "game";
